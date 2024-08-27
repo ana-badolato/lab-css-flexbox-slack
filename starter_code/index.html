@@ -18,11 +18,11 @@
 
 <body>
   <!-- NAVBAR -->
-  <nav>
+  <nav id="nav-bar">
     <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+      <img class="logo" src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul>
+      <ul class="nav-links">
         <li>
           <a href="#">Product</a>
         </li>
@@ -39,13 +39,16 @@
     </div>
 
     <div>
-      <button>
-        <img src="./images/icon-search.png" alt="Search icon">
-      </button>
+      <div class="icons">
+        <button>
+          <img src="./images/icon-search.png" alt="Search icon">
+        </button>
+  
+        <button>
+          <img src="./images/icon-menu.png" alt="Menu icon">
+        </button>
+      </div>
 
-      <button>
-        <img src="./images/icon-menu.png" alt="Menu icon">
-      </button>
 
       <ul hidden>
         <li>
@@ -64,13 +67,13 @@
     <div>
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p id="free"><span>Slack is free to try</span> for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div id="sign-up">
+        <button id="button-sign">Sign up with email</button>
 
-        <button>
-          <img src="./images/logo-google.png" alt="Google logo" />
+        <button id="button-google">
+          <img id="logo-google" src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
       </div>
