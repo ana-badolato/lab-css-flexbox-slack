@@ -70,13 +70,13 @@ footer links grey: #454245
         font-weight: bold;
     }
     
-    #sign-up{
+    .buttons{
         display: flex;
         flex-direction: column;
         font-weight: bold;
     }
 
-    #sign-up button {
+    .buttons button {
         margin: 8px 24px;
         height: 54px;
         border-radius: 5px;
@@ -85,21 +85,150 @@ footer links grey: #454245
     }
 
     #logo-google {
-        height: 40px;
+        height: 36px;
+        background-color: white;
+        border-radius: 4px;
+        padding: 4px;
+        position: absolute;
+        left: 32px;
     }
 
     #button-google {
         background-color: #4285F4;
         display: flex;
         align-items: center;
-        gap: 96px;
+        justify-content: center;
+        /* gap: 56px; */
         color: white;
 
     }
 
-    #button-sign,  #button-google span {
+    .button-white,  #button-google span {
         font-weight: bold;
     }
 
+    .button-white {
+        color: #540B51;
+    }
 
+    #img-slack {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    #trasted {
+        background-color: #F3EAE2;
+        padding: 32px 16px;
+    }
+
+    #trasted p {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+
+    .cnt-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+        padding-top: 24px;
+    }
+
+    .cnt-icons img {
+        height: 36px;
+    }
+
+    #teams {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #teams li {
+        list-style: none;
+        margin: 24px;
+    }
+
+    .purple {
+        color: #540B51;
+    }
+
+    #teams h3, #welcome h3 {
+        font-size: 24px;
+        margin: 24px;
+        /* margin-bottom: 0; */
+    }
+
+    #support {
+        font-size: 0.9rem;
+    }
+
+    #teams p {
+        margin: 0 60px;
+    }
+
+    span.purple {
+        font-size: 40px;
+        font-weight: bold;
+        
+    }
+
+    .benefits {
+        font-size: 0.8rem;
+        font-weight: bold;
+
+    }
+
+    #welcome {
+        background-color: #540B51;
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+
+    #button-purple {
+        background-color: #540B51;
+        border: 2px solid white;
+        color: white;
+    }
+
+    hr {
+        margin: 24px;
+    }
+
+    footer li {
+        list-style: none;
+    }
+
+    #social-media ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    #terms {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    #terms li {
+        padding: 12px 0;
+    }
+
+    #terms li img {
+        padding-right: 8px;
+    }
+
+    #blue {
+        color: #2E71A6;
+    }
+
+    #copy p {
+        text-align: center;
+        padding: 32px;
+    }
 }
